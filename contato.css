@@ -278,6 +278,7 @@ nav ul.nav-list {
     display: flex;
     list-style: none;
     gap: 30px;
+    justify-content: flex-end;
 }
 
 header h1 {
