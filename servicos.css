@@ -72,6 +72,7 @@ header h1 {
 }
 .descricao{
     text-align: justify;
+    overflow-wrap:break-word;
 }
 
 .produto-item:hover {
