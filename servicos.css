@@ -1,14 +1,136 @@
-body {
-    background-color: offwhite;
-    min-height: 100vh;
-    font-family: century gothic, serif;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-footer {
-    background-color: rgb(254, 213, 250);
+/* Body e fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5; /* rosa clarinho de fundo */
+}
+
+/* Header */
+header {
+    background-color: #ff69b4; /* rosa vibrante */
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-list li a:hover {
+    background-color: #fff;
+    color: #ff69b4;
+    border-radius: 5px;
+}
+
+/* Título da seção */
+.produtos h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #ff1493; /* rosa mais forte */
+}
+
+/* Container scroll horizontal */
+.produtos {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+/* Cada bloco de produto */
+.produto-item {
+    display: inline-block;
+    background-color: #ffe6f0; /* rosa bem clarinho */
+    border-radius: 12px;
+    width: 500px;
+    margin-right: 20px;
+    vertical-align: top;
+    padding: 15px;
+    text-align: justify;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.descricao{
+    text-align: justify;
+}
+
+.produto-item:hover {
+    background-color: #ffd1e0; /* rosa hover */
+    transform: translateY(-5px);
+}
+
+/* Imagem do produto */
+.produto-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Nome do produto */
+.produto-item h2 {
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+
+/* Descrição do produto */
+.produto-item p {
     font-size: 14px;
-    color: black;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Preço */
+.preco {
+    display: block;
+    font-weight: bold;
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+/* Botão comprar */
+.produto-item button {
+    background-color: #ff69b4; /* rosa vibrante */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.produto-item button:hover {
+    background-color: #ff1493; /* rosa mais escuro */
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
 }
