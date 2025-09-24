@@ -215,3 +215,7 @@ details {
     line-height: 1.6;
     margin: 0;
 }
+
+h1.resposta {
+    padding-bottom: 20px;
+}
