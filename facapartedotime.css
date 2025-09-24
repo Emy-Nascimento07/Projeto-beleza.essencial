@@ -1,3 +1,10 @@
+body {
+  background-color: offwhite;
+  min-height: 100vh;
+  font-family: century gothic, serif;
+  margin: 0;
+}
+
 form {
   width: 500px;
   margin: 0 auto;
@@ -64,13 +71,6 @@ button[type="reset"]:hover {
   box-sizing: border-box;
   padding-top: 30px;
 }
-
-<<<<<<< HEAD
-
-
-
-
-
 
 
 
@@ -176,7 +176,8 @@ button[type="reset"]:hover {
     top: 15px;
     color: rgb(217, 170, 183);
     font-size: 1em;
-=======
+}
+
 footer {
     background-color: rgb(254, 213, 250);
     text-align: center;
@@ -184,5 +185,4 @@ footer {
     margin-top: 20px;
     font-size: 14px;
     color: black;
->>>>>>> 4b76c947bc71d431beeebbd11e5fc0a55f3e48a2
 }
