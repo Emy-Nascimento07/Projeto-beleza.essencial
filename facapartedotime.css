@@ -64,3 +64,12 @@ button[type="reset"]:hover {
   box-sizing: border-box;
   padding-top: 30px;
 }
+
+footer {
+    background-color: rgb(254, 213, 250);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
