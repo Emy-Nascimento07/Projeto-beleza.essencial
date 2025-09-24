@@ -42,6 +42,7 @@ header h1 {
     /* color: var(--primary-color); */
     color: rgb(253, 200, 251);
     font-weight: 700;
+    text-decoration: underline;
 }
 
 nav ul.nav-list {
