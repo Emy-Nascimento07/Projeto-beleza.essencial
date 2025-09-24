@@ -1,0 +1,22 @@
+body {
+    background-color: offwhite;
+    min-height: 100vh;
+    font-family: century gothic, serif;
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 0;
+    text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
+    
+}
+
+.formularios {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
