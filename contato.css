@@ -1,0 +1,253 @@
+body {
+  background-color: offwhite;
+  min-height: 100vh;
+  font-family: century gothic, serif;
+
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(253, 200, 251);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+  color: rgb(253, 139, 249);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fef5ff;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(57, 103, 121);
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: rgb(254, 213, 250);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(212, 155, 207);
+}
+
+button[type="reset"] {
+  background-color: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="reset"]:hover {
+  background-color: gray;
+}
+
+
+.container-contato {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.item-contato {
+  border: 2px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-contato h3 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.item-contato .icone {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.container-icone{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+header {
+    background: offwhite;
+    box-shadow: 0 2px 5px rgb(253, 200, 251);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+header nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+a.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(253, 200, 251);
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 90px;
+}
+
+.formularios {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container-form,
+.container-vender {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(254, 213, 250);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.faq {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 30px;
+    text-shadow: 0 4px 8px rgb(254, 213, 250);
+}
+
+.faq details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s;
+}
+
+.faq details[open] {
+    background-color: #fff;
+}
+
+.faq summary {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #555;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.faq summary:hover {
+    color: #000;
+}
+
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq summary::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    color: #888;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.faq details[open] summary::after {
+    content: '×';
+    transform: translateY(-50%) rotate(180deg);
+    color: #000000;
+}
+
+.faq details p {
+    padding: 0 20px 20px 20px;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+}

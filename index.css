@@ -1,0 +1,219 @@
+body {
+    background-color: offwhite;
+    min-height: 100vh;
+    font-family: century gothic, serif;
+}
+
+.Logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F5F5DC;
+    height: 8vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #23232e;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F5F5DC;
+    height: 8vh;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #23232e;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #F5F5DC;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+ }
+
+ .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+/* Reset e box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout principal - garante footer no final */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F8F8F8; /* offwhite válido */
+  font-family: "Century Gothic", "Segoe UI", Arial, sans-serif;
+}
+
+/* header e nav */
+header {
+  width: 100%;
+  background-color: #F5F5DC;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+/* Logo */
+.Logo {
+  width: 60px;    /* ajuste aqui para aumentar/diminuir */
+  height: auto;
+  display: block;
+}
+
+/* título (opcional) */
+.site-title {
+  margin-left: 12px;
+  font-size: 1.25rem;
+  color: #23232e;
+}
+
+/* nav */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.nav-list a {
+  color: #23232e;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: opacity .25s;
+}
+.nav-list a:hover { opacity: .7; }
+
+/* produtos - exemplo simples */
+.produtos { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
+.produto-item { background: #fff; padding: 12px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.produto-item img { width: 100%; height: auto; display: block; border-radius: 6px; }
+.produto-item h2 { margin: 10px 0 6px; font-size: 1rem; }
+.produto-item p { font-size: .92rem; color: #333; line-height: 1.2; }
+.price { display: block; font-weight: 700; margin: 8px 0; }
+
+footer {
+    background-color: rgb(254, 213, 250);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+

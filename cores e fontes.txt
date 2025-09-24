@@ -1,0 +1,3 @@
+fonte: font-family: century gothic, serif;
+
+cor rosinha: color: rgb(253, 200, 251);

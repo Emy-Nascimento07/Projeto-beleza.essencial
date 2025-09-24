@@ -1,0 +1,15 @@
+body {
+    background-color: offwhite;
+    min-height: 100vh;
+    font-family: century gothic, serif;
+}
+
+footer {
+    background-color: rgb(254, 213, 250);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
+
