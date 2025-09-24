@@ -17,6 +17,13 @@ header {
     margin-bottom: 20px;
 }
 
+nav ul.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
 footer {
     background-color: rgb(254, 213, 250);
     text-align: center;
