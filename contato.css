@@ -21,8 +21,8 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 h4 {
@@ -81,7 +81,6 @@ button[type="reset"]:hover {
   background-color: gray;
 }
 
-
 .container-contato {
   display: flex;
   gap: 10px;
@@ -110,7 +109,7 @@ button[type="reset"]:hover {
   margin-bottom: 10px;
 }
 
-.container-icone{
+.container-icone {
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -118,52 +117,55 @@ button[type="reset"]:hover {
 }
 
 header {
-    background-color: rgb(254, 213, 250);
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    margin-bottom: 20px;
+  background-color: rgb(254, 213, 250);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
 }
 
 nav ul.nav-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    list-style: none;
-    gap: 30px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  list-style: none;
+  gap: 30px;
 }
 
 header nav {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
 }
 
 a.logo {
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: rgb(253, 200, 251);
-    text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(253, 200, 251);
+  text-decoration: none;
 }
 
 .nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-list li {
-    margin-left: 90px;
+  margin-left: 90px;
 }
 
 .formularios {
@@ -184,86 +186,85 @@ a.logo {
 }
 
 footer {
-    background-color: rgb(254, 213, 250);
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    font-size: 14px;
-    color: black;
+  background-color: rgb(254, 213, 250);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  color: black;
 }
 
 .faq {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    font-family: century gothic, serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: century gothic, serif;
 }
 
 .faq h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #000000;
-    font-size: 30px;
-    text-shadow: 0 4px 8px rgb(254, 213, 250);
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 30px;
+  text-shadow: 0 4px 8px rgb(254, 213, 250);
 }
 
 .faq details {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    transition: background-color 0.3s;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s;
 }
 
 .faq details[open] {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .faq summary {
-    padding: 20px;
-    font-weight: bold;
-    font-size: 1.1em;
-    color: #555;
-    cursor: pointer;
-    position: relative;
-    list-style: none;
-    display: block;
-    transition: color 0.3s;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #555;
+  cursor: pointer;
+  position: relative;
+  list-style: none;
+  display: block;
+  transition: color 0.3s;
 }
 
 .faq summary:hover {
-    color: #000;
+  color: #000;
 }
 
 .faq summary::-webkit-details-marker {
-    display: none;
+  display: none;
 }
 
 .faq summary::after {
-    content: '+';
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.5em;
-    color: #888;
-    transition: transform 0.3s ease, color 0.3s ease;
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  color: #888;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .faq details[open] summary::after {
-    content: '×';
-    transform: translateY(-50%) rotate(180deg);
-    color: #000000;
+  content: "×";
+  transform: translateY(-50%) rotate(180deg);
+  color: #000000;
 }
 
 .faq details p {
-    padding: 0 20px 20px 20px;
-    color: #000000;
-    line-height: 1.6;
-    margin: 0;
+  padding: 0 20px 20px 20px;
+  color: #000000;
+  line-height: 1.6;
+  margin: 0;
 }
-
 
 h1 {
   font-size: 35px;
@@ -281,26 +282,25 @@ header h1 {
   text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
 }
 
-
 nav ul.nav-list {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 header {
-    background-color: rgb(254, 213, 250);
-    padding: 20px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    margin-bottom: 20px;
+  background-color: rgb(254, 213, 250);
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
 }
 
 nav ul.nav-list {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }

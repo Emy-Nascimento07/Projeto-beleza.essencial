@@ -10,16 +10,16 @@ h1 {
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 0;
-  text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7); 
+  text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.4;
-    color: black;
-    text-align: center;
-    font: century gothic, serif;
-    font-weight: bold;
+  font-size: 18px;
+  line-height: 1.4;
+  color: black;
+  text-align: center;
+  font: century gothic, serif;
+  font-weight: bold;
 }
 
 h2 {
@@ -112,87 +112,85 @@ button[type="reset"]:hover {
 }
 
 .vagas-abertas {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 40px;
-    background-color: rgb(253, 250, 251);
-    border-radius: 12px;
-    text-align: center;
-    border: 1px solid rgb(238, 238, 238);
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: rgb(253, 250, 251);
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid rgb(238, 238, 238);
 }
-
 
 .vagas-abertas h2 {
   font-size: 35px;
   color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 0;
-    text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
+  text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
 }
 
 .vagas-abertas p {
-    font-size: 1.1em;
-    line-height: 1.7;
-    color: rgb(0, 0, 0);
-    max-width: 700px;
-    margin: 0 auto 25px auto;
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: rgb(0, 0, 0);
+  max-width: 700px;
+  margin: 0 auto 25px auto;
 }
 
 .vagas-abertas ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-    text-align: left;
-    display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+  display: inline-block;
 }
 
 .vagas-abertas li {
-    padding: 15px 0;
-    font-size: 1.2em;
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(238, 238, 238);
-    position: relative;
-    padding-left: 30px;
+  padding: 15px 0;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  position: relative;
+  padding-left: 30px;
 }
 
 .vagas-abertas li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .vagas-abertas li::before {
-    content: '✨';
-    position: absolute;
-    left: 0;
-    top: 15px;
-    color: rgb(253, 139, 249);
-    font-size: 1em;
+  content: "✨";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  color: rgb(253, 139, 249);
+  font-size: 1em;
 }
 
 footer {
-    background-color: rgb(254, 213, 250);
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    font-size: 14px;
-    color: black;
+  background-color: rgb(254, 213, 250);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  color: black;
 }
 
-
 header {
-    background-color: rgb(254, 213, 250);
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    margin-bottom: 20px;
+  background-color: rgb(254, 213, 250);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
 }
 
 nav ul.nav-list {
-    display: flex;
-    list-style: none;
-    gap: 30px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
 }
