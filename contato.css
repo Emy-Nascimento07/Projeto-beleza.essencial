@@ -133,6 +133,12 @@ nav ul.nav-list {
   display: flex;
   list-style: none;
   gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  list-style: none;
+  gap: 30px;
 }
 
 header nav {
