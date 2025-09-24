@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: rgb(244, 130, 230, 0.7); /* Rosa principal */
-    --secondary-color: #fce4ec; /* Rosa de fundo */
+    --secondary-color: offwhite; /* Fundo claro */
     --text-color: #4a4a4a;
     --light-text-color: #666;
     --card-bg: #fef5ff;
