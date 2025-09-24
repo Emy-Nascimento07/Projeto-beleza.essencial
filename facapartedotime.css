@@ -7,6 +7,14 @@ form {
   background-color: #fef5ff;
 }
 
+h1 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
+}
+
 label {
   font-weight: bold;
   display: block;
