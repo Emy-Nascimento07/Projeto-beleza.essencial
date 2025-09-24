@@ -139,6 +139,7 @@ h3.introdução {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 2px;
 }
 
 .membro {
@@ -218,4 +219,8 @@ details {
 
 h1.resposta {
     padding-bottom: 20px;
+}
+
+h3.introdução {
+    padding-bottom: 0;
 }
