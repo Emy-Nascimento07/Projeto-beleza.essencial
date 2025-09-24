@@ -28,6 +28,15 @@ h1 {
   margin-bottom: 0;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: black;
+    text-align: justify;
+    font: century gothic, serif;
+    font-weight: bold;
+}
+
 h2 {
   font-size: 50px;
   color: rgb(253, 139, 249);
