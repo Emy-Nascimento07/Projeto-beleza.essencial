@@ -36,12 +36,15 @@ header {
     z-index: 1000;
 }
 
-header h1 {
-    font-family: century gothic, serif;
-    font-size: 2em;
-    color: var(--primary-color);
-    font-weight: 700;
+
+h1 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
 }
+
 
 nav ul.nav-list {
     display: flex;
@@ -49,28 +52,7 @@ nav ul.nav-list {
     gap: 30px;
 }
 
-nav ul.nav-list a {
-    text-decoration: none;
-    color: var(--light-text-color);
-    font-weight: 500;
-    transition: color 0.3s ease;
-    position: relative;
-}
 
-nav ul.nav-list a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: var(--primary-color);
-    left: 0;
-    bottom: -5px;
-    transition: width 0.3s ease-in-out;
-}
-
-nav ul.nav-list a:hover::after {
-    width: 100%;
-}
 
 /* --- Main Content e Destaques --- */
 main {
@@ -179,25 +161,6 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.9em;
-}
-
-/* --- Responsividade (mobile) --- */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
-    
-    header h1 {
-        font-size: 1.8em;
-    }
-    
-    nav ul.nav-list {
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 
 header {
