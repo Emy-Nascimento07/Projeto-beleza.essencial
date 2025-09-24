@@ -176,7 +176,7 @@ details {
     padding: 20px;
     font-weight: bold;
     font-size: 1.1em;
-    color: #555;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     position: relative;
     list-style: none;
@@ -185,7 +185,7 @@ details {
 }
 
 .quem-somos summary:hover {
-    color: #000;
+    color: rgb(251, 114, 237);
 }
 
 .quem-somos summary::-webkit-details-marker {
@@ -199,7 +199,7 @@ details {
     top: 50%;
     transform: translateY(-50%);
     font-size: 1.5em;
-    color: #888;
+    color: #000000;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
