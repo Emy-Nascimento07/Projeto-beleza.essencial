@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
 
 :root {
-    --primary-color: #c2185b; /* Rosa principal */
-    --secondary-color: #fce4ec; /* Rosa de fundo */
+    --primary-color: rgb(244, 130, 230, 0.7); /* Rosa principal */
+    --secondary-color: offwhite; /* Fundo claro */
     --text-color: #4a4a4a;
     --light-text-color: #666;
-    --card-bg: #fff;
-    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --card-bg: #fef5ff;
+    --shadow: 0 4px 12px rgba(0, 0, 0);
 }
 
 * {
@@ -193,4 +193,23 @@ footer p {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+header {
+    background-color: rgb(254, 213, 250);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+nav ul.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
 }
