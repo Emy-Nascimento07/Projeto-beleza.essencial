@@ -1,16 +1,51 @@
-body {
-    background-color: offwhite;
-    min-height: 100vh;
-    font-family: century gothic, serif;
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fef5ff;
 }
 
-h1 {
-  font-size: 35px;
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(57, 103, 121);
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: rgb(254, 213, 250);
   color: rgb(0, 0, 0);
-  text-align: center;
-  margin-bottom: 0;
-    text-shadow: 0 4px 4px rgb(244, 130, 230, 0.7);
-    
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(212, 155, 207);
+}
+
+button[type="reset"] {
+  background-color: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="reset"]:hover {
+  background-color: gray;
 }
 
 .formularios {
@@ -19,4 +54,13 @@ h1 {
   align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.container-vendedor {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-top: 30px;
 }
