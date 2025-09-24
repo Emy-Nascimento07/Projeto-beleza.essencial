@@ -4,8 +4,8 @@
 :root {
     --primary-color: rgb(244, 130, 230, 0.7); /* Rosa principal */
     --secondary-color: offwhite; /* Fundo claro */
-    --text-color: #4a4a4a;
-    --light-text-color: #666;
+    --text-color: #000000;
+    --light-text-color: #000000;
     --card-bg: #fef5ff;
     --shadow: 0 4px 12px rgba(0, 0, 0);
 }
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: century gothic, serif;
     background-color: var(--secondary-color);
     line-height: 1.6;
     color: var(--text-color);
@@ -37,7 +37,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: century gothic, serif;
     font-size: 2em;
     color: var(--primary-color);
     font-weight: 700;
@@ -80,13 +80,18 @@ main {
 }
 
 .produtos h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: century gothic, serif;
     font-size: 2.8em;
     color: var(--primary-color);
     text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
     letter-spacing: 1px;
+        text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 50px;
+    text-shadow: 0 4px 8px rgb(254, 213, 250);
 }
 
 /* --- Layout Responsivo com Grid --- */
