@@ -158,3 +158,60 @@ img {
     object-fit: cover;
     margin-bottom: 10px;
 }
+
+details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s;
+}
+
+.quem-somos details[open] {
+    background-color: #fff;
+}
+
+.quem-somos summary {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #555;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.quem-somos summary:hover {
+    color: #000;
+}
+
+.quem-somos summary::-webkit-details-marker {
+    display: none;
+}
+
+.quem-somos summary::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    color: #888;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.quem-somos details[open] summary::after {
+    content: '×';
+    transform: translateY(-50%) rotate(180deg);
+    color: #000000;
+}
+
+.quem-somos details p {
+    padding: 0 20px 20px 20px;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+}
