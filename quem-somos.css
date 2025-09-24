@@ -26,6 +26,7 @@ h1 {
   color: rgb(253, 200, 251);
   text-align: center;
   margin-bottom: 0;
+    text-shadow: 0 4px 8px rgb(254, 213, 250);
 }
 
 p {
