@@ -13,3 +13,129 @@ footer {
     color: black;
 }
 
+
+body {
+  background-color: offwhite;
+  min-height: 100vh;
+  font-family: century gothic, serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(253, 200, 251);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+  color: rgb(253, 139, 249);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.container-vender h3 {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fef5ff;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(57, 103, 121);
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: rgb(254, 213, 250);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(212, 155, 207);
+}
+
+button[type="reset"] {
+  background-color: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="reset"]:hover {
+  background-color: gray;
+}
+
+.formularios {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container-vendedor {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+h3.introdução {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 4px 8px rgb(254, 213, 250);
+}
+
+.container-time {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.membro {
+  border: 2px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
