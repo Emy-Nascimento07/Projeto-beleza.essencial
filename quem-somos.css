@@ -23,10 +23,10 @@ body {
 
 h1 {
   font-size: 35px;
-  color: rgb(253, 200, 251);
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 0;
-    text-shadow: 0 4px 8px rgb(254, 213, 250);
+    text-shadow: 0 4px 4px rgb(244, 130, 230);
 }
 
 p {
