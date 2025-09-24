@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
 
 :root {
-    --primary-color: #c2185b; /* Rosa principal */
+    --primary-color: rgb(244, 130, 230, 0.7); /* Rosa principal */
     --secondary-color: #fce4ec; /* Rosa de fundo */
     --text-color: #4a4a4a;
     --light-text-color: #666;
-    --card-bg: #fff;
-    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --card-bg: #fef5ff;
+    --shadow: 0 4px 12px rgba(0, 0, 0);
 }
 
 * {
